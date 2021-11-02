@@ -6,11 +6,16 @@
 
 html {
     font-size: 62.5%;
-    font-family: sans-serif;
+    font-family: Retina,Arial,Helvetica,sans-serif;
 }
 
 body {
     width: 100%;
+}
+
+header {
+    position: sticky;
+    top: -5.2rem;
 }
 
 a {
@@ -37,7 +42,7 @@ a {
     font-weight: bold;
 }
 
-li {
+li, #firstLeft, #secondRight, .picture, .text, .source {
     display: inline-block;
 }
 
@@ -57,8 +62,19 @@ li {
     background: #333333;
 }
 
-#bottomGrey a {
+.textGrey, .textGrey a {
     color: grey;
+}
+
+#secondRight .textGrey {
+    margin-top: 1rem;
+}
+
+#firstLeft .textGrey {
+    margin-bottom: 1rem;
+}
+
+#bottomGrey a {
     font-weight: bold;
 }
 
@@ -66,3 +82,70 @@ li {
     margin: 0 10rem 0 1.5rem;
 }
 
+#firstLeft, h1 {
+    padding: 1rem 3rem;
+}
+
+#firstLeft {
+    width: 63%;
+}
+
+h1, h2 {
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.dontMiss, .onTop {
+    margin-bottom: 3rem;
+}
+
+.picture {
+    width: 59.5%;
+}
+
+.text {
+    width: 40%;
+    vertical-align: top;
+}
+
+#secondRight {
+    width: 36%;
+    margin-top: 3rem;
+    vertical-align: top;
+}
+
+#topRight {
+    font-weight: bold;
+}
+
+i {
+    margin-right: .5rem;
+}
+
+#secondRight .picture {
+    width: 42%;
+}
+
+#secondRight h3 {
+    font-size: 1.5rem;
+}
+
+.timeLeft {
+    margin-top: 1rem;
+}
+
+#secondRight section {
+    margin-bottom: 10rem;
+}
